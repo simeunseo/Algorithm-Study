@@ -20,7 +20,6 @@ int main()
 {
     int m = 0;
     int count = 0;
-    int result = 0;
     cin >> n;
 
     for (int i = 0; i < n; i++)
@@ -36,7 +35,4 @@ int main()
         }
     }
     back_tracking(0, 0);
-    result = m - s.size() + 1;
-    printf("%d\n", result);
-    return (0);
 }
